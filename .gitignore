@@ -23,3 +23,26 @@ go.work.sum
 
 # env file
 .env
+
+
+# Compiled Go files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+chatserver # <- cmd/chatserver 에서 빌드될 실행 파일 이름
+
+# Test coverage
+*.out
+coverage.*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.idea/
+.vscode/
+
+README_kor.md
